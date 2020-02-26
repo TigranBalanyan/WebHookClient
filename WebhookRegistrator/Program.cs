@@ -42,12 +42,6 @@ namespace WebhookRegistrator
             Console.WriteLine();
             Console.WriteLine(refreshToken);
 
-
-            var TranslationsKeys = new List<string>();
-            TranslationsKeys.Add("us");
-            TranslationsKeys.Add("ru");
-            TranslationsKeys.Add("arm");
-
             var MenuGroups = new List<MenuGroupWriteModel>
             {
                 new MenuGroupWriteModel()
